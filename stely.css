@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 27, 48);
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    width: 928px;
+    height: 641px;
+    border-radius: 10px;
+    gap: 40px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+.main_taxts h1{
+    padding: 20px 0;
+    font-size: 40px;
+}
+.main_taxts p{
+    padding: 5px 0;
+}
+.form{
+   display: flex;
+   flex-direction: column; 
+}
+.form label{
+    padding: 10px 0;
+}
+.inp{
+    width: 376px;
+    height: 56px;
+    border: 2px solid #888;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 20px;
+}
+.btn{
+    width: 376px;
+    height: 56px;
+    background-color:  #242742;
+    border-radius: 10px;
+    margin-top: 25px;
+     border: none;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background-color: #ff527b;
+    color: white;
+}
